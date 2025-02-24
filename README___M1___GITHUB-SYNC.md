@@ -23,7 +23,7 @@ Stellen Sie sicher, das Sie bereits ein Konto bei GitHub besitzen.
 
 <https://github.com/login>
 
-Verwenden Sie ihren Firmen-Login. Sollten Sie keinen Zugang besitzen, wenden Sie sich an ihre Fachperson.
+Verwenden Sie ihren Firmen-Login. Sollten Sie keinen Zugang besitzen, wenden Sie sich an ihre Fachperson damit diese mit Ihnen zusammen die Einrichtung vornimmt.
 
 ## Git Installation
 
