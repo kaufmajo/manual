@@ -23,7 +23,7 @@ Stellen Sie sicher, das Sie bereits ein Konto bei GitHub besitzen.
 
 <https://github.com/login>
 
-Verwenden Sie ihren Firmen-Login. Sollten Sie keinen Zugang besitzen, wenden Sie sich an ihre Fachperson damit diese mit Ihnen zusammen die Einrichtung vornimmt.
+Verwenden Sie ihren Firmen-Login. Sollten Sie keinen Zugang besitzen, wenden Sie sich an ihre Fachperson, damit diese mit Ihnen zusammen die Einrichtung vornimmt.
 
 ## Git Installation
 
@@ -41,7 +41,7 @@ $ winget install --id Git.Git -e --source winget
 
 **Die Installation benötigt Admin-Rechte.**
 
-Damit der Pfad zum Git Befehl in der Konsole bekannt ist, öffnen Sie ihr Terminalfesnter nach der Installation neu.
+Damit der Pfad zum Git Befehl in der Konsole bekannt ist, öffnen Sie ihr Terminalfenster nach der Installation neu.
 
 Jeder Commit in Git wird mit einer Identität verbunden. Daher konfigurieren Sie global einmalig ihre Daten:
 
@@ -54,7 +54,7 @@ $ git config --global user.email hans.muster@firma.com"
 
 ## Sync via VSCode
 
-Öfnen Sie VSCode und öffnen Sie ihr Projektverzeichnis.
+Öffnen Sie VSCode mit Ihrem Projektverzeichnis.
 
 Klicken Sie im VSCode auf Source-Control
 
@@ -68,7 +68,9 @@ Falls VSCode bisher noch nicht am GitHub angemeldet war, folgen Sie den Anweisun
 
 ![8.png](/assets/m1/8.png "Title: 8.png")
 
-Wählen Sie einen Namen für das Repository auf Github (standardmässig wird der lokale Verzeichnisname vorgeschlagen)
+Wählen Sie einen Namen für das Repository auf Github (standardmässig wird der lokale Verzeichnisname vorgeschlagen).
+
+Sie können unterscheiden, ob das Repository auf GitHub öffentlich zugänglich sein soll (public), oder als privat gilt mit expliziten Berechtigungen (private).
 
 ![2.png](/assets/m1/2.png "Title: 2.png")
 
@@ -80,7 +82,7 @@ Falls notwendig, authentifizieren sie VSCode über den Browser um den Sync zu st
 
 ![9.png](/assets/m1/9.png "Title: 9.png")
 
-Das lokale Repository sollte nun auf GitHub ersichtlich sein:
+Das lokale Repository sollte nun auf GitHub in Ihrem Konto ersichtlich sein:
 
 ![4.png](/assets/m1/4.png "Title: 4.png")
 
@@ -100,3 +102,9 @@ z.B.:
 ### Niemals Sicherheitsrelevante Daten synchronisieren
 
 Passwörter, IP-Adressen, API-keys, usw. dürfen nie auf GitHub landen. Stellen Sie sicher, das sicherheitsrelevante Dateien oder Verzeichnisse über die Datei ".gitignore" von der Synchronisation ausgeschlossen sind.
+
+## Source-Control Worklfows
+
+Vereinfachte grafische Darstellung des Git Ablaufs - Local (i.e. Dev-Device) <-> Remote (i.e. GitHub)
+
+![ablauf.png](/assets/m1/ablauf.png "Title: ablauf.png")
