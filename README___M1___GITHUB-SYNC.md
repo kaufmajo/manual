@@ -103,7 +103,7 @@ z.B.:
 
 Passwörter, IP-Adressen, API-keys, usw. dürfen nie auf GitHub landen. Stellen Sie sicher, das sicherheitsrelevante Dateien oder Verzeichnisse über die Datei ".gitignore" von der Synchronisation ausgeschlossen sind.
 
-## Source-Control Worklfows
+## Source-Control Worklfow
 
 Vereinfachte grafische Darstellung des Git Ablaufs - Local (i.e. Dev-Device) <-> Remote (i.e. GitHub)
 
