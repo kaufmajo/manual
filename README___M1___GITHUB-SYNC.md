@@ -19,13 +19,15 @@ ProGit Book:
 
 ## GitHub Konto
 
-Stellen Sie sicher, das sie bereits ein Konto bei GitHub besitzen.
+Stellen Sie sicher, das Sie bereits ein Konto bei GitHub besitzen.
 
 <https://github.com/login>
 
 Verwenden Sie ihren Firmen-Login. Sollten Sie keinen Zugang besitzen, wenden Sie sich an ihre Fachperson.
 
-## Stellen Sie sicher, das Git auf ihrem Gerät installiert ist
+## Git Installation
+
+Stellen Sie sicher, das Git auf ihrem Gerät installiert ist.
 
 Sie können Git herunterladen und installieren:
 
@@ -50,7 +52,7 @@ $ git config --global user.name "Hans Muster"
 $ git config --global user.email hans.muster@firma.com"
 ```
 
-## Verwenden Sie Visual Code zur Synchronisation ihres Repositories
+## Sync via VSCode
 
 Öfnen Sie VSCode und öffnen Sie ihr Projektverzeichnis.
 
