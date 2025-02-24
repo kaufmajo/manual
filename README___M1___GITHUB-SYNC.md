@@ -2,9 +2,9 @@
 
 ## Einleitung
 
-Der Einfacheit halber wird auf die Konsolenbefehle verzichtet, und nur der Vorgang über die Visual Code GUI dargestellt.
+Der Einfacheit halber wird auf die Konsolenbefehle verzichtet, und nur der Vorgang über VSCode dargestellt.
 
-Für detailiierte Fragen zu Git und dessen Funktionsweise, Terminilogi und und Befehle studieren Sie die Hilfeseiten im Netz: z.B:
+Für Fragen zu Git und dessen Funktionsweise, Terminologie und Befehle studieren Sie die Hilfeseiten im Netz: z.B:
 
 Youtube Git Tutorial:
 <https://www.youtube.com/watch?v=MgnRFZJ7M2s>
@@ -23,7 +23,7 @@ Stellen Sie sicher, das sie bereits ein Konto bei GitHub besitzen.
 
 <https://github.com/login>
 
-Verwenden Sie ihren Firmen-Login. Sollten Sie keinen Zugang besitzen, wenden Sie sich an ihre Fachperson, um diesen zu beantragen.
+Verwenden Sie ihren Firmen-Login. Sollten Sie keinen Zugang besitzen, wenden Sie sich an ihre Fachperson.
 
 ## Stellen Sie sicher, das Git auf ihrem Gerät installiert ist
 
@@ -37,26 +37,28 @@ oder den Windows-Paket-Manager "winget" verwenden (sofern vorhanden)
 $ winget install --id Git.Git -e --source winget
 ```
 
-**die Installation werden Admin-Rechte benötigt.**
+**Die Installation benötigt Admin-Rechte.**
 
-Damit der Git Befehl in der Konsole bekannt ist, öffnen Sie eine neues konsolenfenster.
+Damit der Pfad zum Git Befehl in der Konsole bekannt ist, öffnen Sie ihr Terminalfesnter nach der Installation neu.
 
-Jeder Commit in Git wird mit einer Identität verbunden. Daher konfigurieren Sie global einmalig ihre Daten Werte:
+Jeder Commit in Git wird mit einer Identität verbunden. Daher konfigurieren Sie global einmalig ihre Daten:
 
-Ersetzen Sie den Namen "Hans Muster" und die E-Mail-Adresse "hans.muster@firma.com" mit Ihren Werten.
+Ersetzen Sie den Namen "Hans Muster" und die E-Mail-Adresse "hans.muster@firma.com" mit Ihren Werten und führen die folgenden beide Befehle im Terminal aus:
 
 ```ps
 $ git config --global user.name "Hans Muster"
 $ git config --global user.email hans.muster@firma.com"
 ```
 
-## Verwenden Sie Visual Code zur Synchronisation
+## Verwenden Sie Visual Code zur Synchronisation ihres Repositories
+
+Öfnen Sie VSCode und öffnen Sie ihr Projektverzeichnis.
 
 Klicken Sie im VSCode auf Source-Control
 
 ![1.png](/assets/m1/1.png "Title: 1.png")
 
-Falls VSCode noch nicht am GitHun angemeldet war, folgen Sie den Anweisungen:
+Falls VSCode bisher noch nicht am GitHub angemeldet war, folgen Sie den Anweisungen:
 
 ![6.png](/assets/m1/6.png "Title: 6.png")
 
@@ -64,7 +66,7 @@ Falls VSCode noch nicht am GitHun angemeldet war, folgen Sie den Anweisungen:
 
 ![8.png](/assets/m1/8.png "Title: 8.png")
 
-Wählen Sie einen Namen für das Repository auf Github (standarmässig wird der lokale Verzeichnisname vorgeschlagen)
+Wählen Sie einen Namen für das Repository auf Github (standardmässig wird der lokale Verzeichnisname vorgeschlagen)
 
 ![2.png](/assets/m1/2.png "Title: 2.png")
 
@@ -72,7 +74,7 @@ Wählen Sie die Dateien aus, welche initial hochgeladen werden sollen:
 
 ![3.png](/assets/m1/3.png "Title: 3.png")
 
-Falls notwendig, authentifizieren sie VSCode über den Browser um den Sync auszuführen.
+Falls notwendig, authentifizieren sie VSCode über den Browser um den Sync zu starten.
 
 ![9.png](/assets/m1/9.png "Title: 9.png")
 
@@ -80,17 +82,19 @@ Das lokale Repository sollte nun auf GitHub ersichtlich sein:
 
 ![4.png](/assets/m1/4.png "Title: 4.png")
 
-Zukünftig können Sie neue die Modifikationen an den Dateien über VSCode und die Source-Control tracken: "stagen", "commiten" und "veröffentlichen".
+Zukünftig können Sie die Modifikationen an den Dateien ihres Projektes über VSCode und die Source-Control tracken: "stagen", "commiten" und "veröffentlichen".
 
 ![5.png](/assets/m1/5.png "Title: 5.png")
 
 ## Wichtig
 
-### Synchronisieren Sie jeweils nur einen Codebase pro Repository
+### Synchronisieren Sie jeweils nur eine Codebase pro Repository
+
+z.B.:
 
 - ein Repository für das Angular Projekt
 - ein Repository für das React Projekt
 
 ### Niemals Sicherheitsrelevante Daten synchronisieren
 
-Stellen Sie sicher das Passwörter, IP-Adressen, API-keys, etc nicht zu GitHun hochgeladen werden. Stellen Sie sicher das Dateien oder Verzeichnisse über die Daten ".gitignore" von der Synchronisation ausgeschlossen sind.
+Stellen Sie sicher das Passwörter, IP-Adressen, API-keys, etc nicht zu GitHub hochgeladen werden. Stellen Sie sicher, das sicherheitsrelevante Dateien oder Verzeichnisse über die Datei ".gitignore" von der Synchronisation ausgeschlossen sind.
