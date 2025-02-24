@@ -97,4 +97,4 @@ z.B.:
 
 ### Niemals Sicherheitsrelevante Daten synchronisieren
 
-Stellen Sie sicher das Passwörter, IP-Adressen, API-keys, etc nicht zu GitHub hochgeladen werden. Stellen Sie sicher, das sicherheitsrelevante Dateien oder Verzeichnisse über die Datei ".gitignore" von der Synchronisation ausgeschlossen sind.
+Passwörter, IP-Adressen, API-keys, usw. dürfen nie auf GitHub landen. Stellen Sie sicher, das sicherheitsrelevante Dateien oder Verzeichnisse über die Datei ".gitignore" von der Synchronisation ausgeschlossen sind.
